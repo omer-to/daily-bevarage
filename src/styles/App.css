@@ -1,0 +1,33 @@
+/*
+============
+
+General CSS rules
+
+============
+*/
+
+
+/* Change the box size calculation for each and every element, including pseudo-elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* easily calculate the scaling factor when using em's and rem's */
+}
+
+:root {
+    --backgroundColor: #212121;
+    --timeColor: #F7FFDD;
+    --timeFontSize: 1.8rem;
+    --timeMarginRight: 2rem;
+    --timesPaddingLeft: 2rem;
+    --imageRadius: 50%;
+    --buttonColor: #C9B675;
+}
+
+body, #root {
+    margin: 0; /* margin for body defaults to 8, I reset it to 0 (zero) */
+    background-color: var(--backgroundColor);
+    height: 100vmin;
+}

@@ -1,0 +1,24 @@
+.nextday {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--timeColor);
+    font-size: 3rem;
+}
+
+.nextday button {
+    display: block;
+    background: var(--buttonColor);
+    padding: 1em;
+    border-radius: 0.9em;
+    margin: 0 auto;
+    margin-top: 1rem;
+    color: var(--timeColor)
+}
+
+.nextday button:active,
+.nextday button:visited,
+.nextday button:focus {
+    cursor: pointer;
+    outline: none;
+}
